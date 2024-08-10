@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Form</title>
+    <style>
+        table {
+           /* width: 100%;
+            border-collapse: collapse;*/
+        }
+        th, td {
+            /*border: 1px solid black;*/
+            padding: 8px;
+            text-align: left;
+            font-size: large;
+        }
+        form{
+            border: 1px solid black;
+            width: 320px;
+            margin: 30px;
+            padding: 30px;
+            background-color: rgb(235, 172, 231);
+        }
+        button{
+            font-size: large;
+            margin-right: 55px;
+            margin-left: 10px;
+            padding: 6px;
+            background-color: rgb(238, 221, 236);
+        }
+        h2{
+            color: rgb(161, 23, 161);
+            font-size: 40px;
+            text-align:justify;
+        }
+        body{
+            margin: 30px;
+            background-color: rgb(238, 204, 226)
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Student Admission Form</h2>
+    
+    <form action="/submit_admission" method="post">
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="first_Name" required></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="last_Name" required></td>
+            </tr>
+            <tr>
+                <td>NIC:</td>
+                <td><input type="text" name="NIC" required></td>
+            </tr>
+            <tr>
+                <td>School:</td>
+                <td><input type="text" name="school" required></td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="number" name="age" required></td>
+            </tr>
+            <tr>
+                <td>College:</td>
+                <td><input type="text" name="college" required></td>
+            </tr>
+            <tr>
+                <td>Course:</td>
+                <td><input type="text" name="course" required></td>
+            </tr>
+            <tr>
+                <td>Branch:</td>
+                <td><input type="text" name="branch" required></td>
+            </tr>
+        </table>
+        <br><br>
+        <button type="submit">Submit</button> 
+        <button type="Reset">Reset </button>
+    </form>
+
+</body>
+</html>

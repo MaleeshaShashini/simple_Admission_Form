@@ -1,0 +1,25 @@
+#studTable{
+ border: 1px solid black;
+ margin: 40px;
+ padding: 40px;
+ width: 350px;
+ color: rgb(1, 8, 20);
+ background-color: lavender;
+}
+
+#form{
+    margin-left:420px 
+    
+
+}
+#title{
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(102, 20, 179);
+    padding-top: 30px;
+    margin-left:40px 
+}
+body{
+    background-color: rgb(180, 180, 224);
+}

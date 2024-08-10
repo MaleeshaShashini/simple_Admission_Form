@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Information</title>
+        <link rel="stylesheet" href="studTableCSS.css">
+    </head>
+    <body>
+        <div id="form">
+            <h1 id="title">Student Information</h1>
+            <div id="studTable">
+                <form name="StudentInfo">
+                    First Name: <input name="FirstName"></input><br><br>
+                    Last Name: <input name="LastName"></input><br><br>
+                    NIC: <input name="NIC"></input><br><br>
+                    Age: <input name="Age"></input><br><br>
+                    School: <input name="School"></input><br><br>
+                    Contact No: <input name="ContactNo"></input><br><br>
+                    Address: <input name="Address"></input><br><br>
+                    Gender: <input name="Gender"></input><br><br><br>
+                    <input type="button" name="save" value="Save" 
+                        onclick="checkForm();">
+                     <!--  "window.alert('Your Data Was Saved Successfully!');"></input>-->
+                    <input type="button" name="reset" value="Reset" 
+                        onclick="checkForm();">
+                        <!-- "window.alert('Your Data Was Reset!');"></input>-->
+                </form>
+            </div>
+        </div>
+        <script src="studTableJS.js"></script>
+    </body>
+</html>
